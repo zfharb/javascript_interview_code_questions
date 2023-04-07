@@ -1,0 +1,23 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+              
+    JSONObject jo = new JSONObject();
+    jo.put("firstName", "John");
+    jo.put("lastName", "Doe");
+
+    JSONArray ja = new JSONArray();
+    ja.put(jo); 
+
+
+for(int i = 0; i < ja.length(); i++)
+{
+      JSONObject objects = getArray.getJSONArray(i);
+      objects.getString("Age");
+      
+      //Iterate through the elements of the array i.
+      //Get thier value.
+      //Get the value for the first element and the value for the last element.
+}
+    }
+    }
