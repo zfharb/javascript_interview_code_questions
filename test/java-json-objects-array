@@ -13,7 +13,7 @@ class HelloWorld {
 for(int i = 0; i < ja.length(); i++)
 {
       JSONObject objects = getArray.getJSONArray(i);
-      objects.getString("Age");
+      String x = (string) objects.getString("Age");
       
       //Iterate through the elements of the array i.
       //Get thier value.
